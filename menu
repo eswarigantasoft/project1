@@ -1,0 +1,28 @@
+<nav class="navbar navbar  justify-content" style="background-color: rgb(241, 153, 120);">
+    <div class="container-fluid">
+        <div class="logo">
+            <img src="https://rewardz.sg/images/logos/rewardz-logo.svg" alt="not Found" width="100px">
+
+        </div>
+        <div class="profile">
+            <div>
+                <button type="button" class="btn btn-outline-primary position-relative" title="Notification">
+                    <i class="bi bi-bell-fill"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        4
+                    </span>
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-outline-primary"  data-bs-toggle="tooltip" data-bs-placement="top" title="Profile">
+                    <i class="bi bi-person-square"></i></button>
+            </div>
+            <div>
+                <button class="btn btn-outline-primary" title="language">
+                    <i class="bi bi-translate"></i>
+                </button>
+               
+            </div>
+        </div>
+    </div>
+</nav>
